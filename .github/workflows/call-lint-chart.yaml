@@ -15,7 +15,6 @@ on:
       - main
 jobs:
   chart-lint-test:
-    needs: docker-build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
